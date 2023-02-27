@@ -24,6 +24,7 @@
                 android:id="@+id/dayOfWeek" />
 
             <ImageView
+                android:id="@+id/weatherIcon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"/>
@@ -39,10 +40,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Se siente un frío cabrón."
+                android:text="Se siente frío."
                 android:layout_marginLeft="20dp"
                 android:padding="16dp"
-                android:id="@+id/description"/>
+                android:id="@+id/humidity"/>
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>

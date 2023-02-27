@@ -14,10 +14,10 @@ object ApiRest {
     val longitude = "-3.7035825"
     val units = "metric"
 
-
-    init{
+    init {
         initService()
     }
+
 
     private fun initService(){
         val retrofit = Retrofit.Builder()
